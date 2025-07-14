@@ -6,7 +6,6 @@
    - Node.js (v18+)
    - PostgreSQL
    - Google Places API key
-   - Stripe secret key
 
 2. **Client Setup**:
    ```bash
@@ -35,7 +34,6 @@ Runs on http://localhost:3000
    ```
    DATABASE_URL=postgresql://user:password@localhost:5432/swipesavvy
    GOOGLE_API_KEY=your-google-api-key
-   STRIPE_SECRET_KEY=your-stripe-secret-key
    ```
 
    Start the server:
@@ -52,5 +50,5 @@ Runs on http://localhost:3000
 
 5. **Testing**:
 
-   - Verify business lookup, form submission, and Stripe checkout.
+   - Verify business lookup, form submission, and premium user update.
    - Check responsive design on mobile and desktop.
