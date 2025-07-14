@@ -1,0 +1,8 @@
+# Ignore environment variables
+.env
+server/.env
+
+# Node.js common ignores
+node_modules/
+dist/
+build/
